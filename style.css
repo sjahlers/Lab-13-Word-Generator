@@ -1,0 +1,77 @@
+body {
+	margin: 20px;
+	background-image: url('fruits.jpg');
+	background-size: cover;
+}
+
+#container {
+	width: 80%;
+	text-align: center;
+	border: 4px solid black;
+	border-radius: 10px;
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+}
+
+p {
+	display: inline-block;
+	margin: 10px;
+	font-size: 1.25em;
+}
+
+h1 {
+	color: green;
+	font-size: 3em;
+	font-family: 'Nova Mono', monospace;
+}
+
+.buttons {
+	padding: 5px;
+	margin: 10px;
+	font-size: 1.5em;
+	font-family: 'Averia Sans Libre', cursive;
+	background-color: lightgreen;
+	border-radius: 5px;
+	box-shadow: 1px 1px black;
+}
+
+.none {
+	color: black;
+}
+
+.red {
+	color: red;
+	font-family: 'Averia Sans Libre', cursive;
+	font-size: 1.5em;
+}
+
+.green {
+	color: green;
+	font-size: 2em;
+	font-family: 'Nova Mono', monospace;
+}
+
+.purple {
+	color: purple;
+	font-size: 1.5em;
+	font-family: 'Englebert', sans-serif;
+	border: 2px solid purple;
+	padding: 2px;
+}
+
+.blue {
+	color: blue;
+	font-size: 2em;
+	font-family: 'Miniver', cursive;
+}
+
+.orange {
+	color: orange;
+	font-size: 1.5em;
+	text-decoration: underline;
+	font-family: 'Ribeye', cursive;
+}
+
+
+

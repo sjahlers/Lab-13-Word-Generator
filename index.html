@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Dinner Idea Generator</title>
+	<link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Englebert|Miniver|Nova+Mono|Ribeye" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body ng-app="wordModule" ng-controller="wordController">
+
+<div id = "container">
+	<h1>Hungry?   Can't Decide?</h1>
+	
+	<input type = "button" value = "Snacks" class = "buttons" ng-click = "snackGenerator(item)"/>
+	<input type = "button" value = "Snacks with Style" class = "buttons" ng-click = "styleSnackGenerator(item)"/>
+	<input type = "button" value = "Dinners" class = "buttons" ng-click = "dinnerGenerator(item)"/>
+	<input type = "button" value = "Dinners with Style" class = "buttons" ng-click = "styleDinnerGenerator(item)"/>
+	</br>
+	<p ng-repeat = "item in meals track by $index" ng-class="item.style">{{item.food}}</p>
+</div>
+	
+<script src = "angular.min.js"></script>
+<script src = "app.js"></script>
+</body>
+</html>
